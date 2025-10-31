@@ -1,12 +1,12 @@
 "use client";
 
-import { Icons } from "@/components/icons";
 import { NavMenu } from "@/components/nav-menu";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { siteConfig } from "@/lib/config";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion, useScroll } from "motion/react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -135,7 +135,13 @@ export function Navbar() {
           )}>
             {/* LOGO */}
             <Link href="/" className="flex items-center gap-3 shrink-0">
-              <Icons.logo className="size-7 md:size-10" />
+              <Image
+                src="/logo.svg"
+                alt="Logo"
+                width={56}
+                height={56}
+                className="size-8 md:size-12 object-contain"
+              />
               <p className="text-lg font-semibold text-primary whitespace-nowrap">Sky Pay</p>
             </Link>
 
@@ -146,6 +152,26 @@ export function Navbar() {
               <div className="hidden md:flex items-center">
                 <WalletButton/>
               </div>
+
+              <a
+                href="https://x.com/SkyPay189125"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center border border-border size-8 md:size-9 rounded-md hover:bg-accent transition-colors"
+                aria-label="Follow us on X"
+              >
+                <svg
+                  className="size-4 md:size-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
 
               <ThemeToggle />
 
@@ -189,7 +215,13 @@ export function Navbar() {
               <div className="flex flex-col gap-4">
                 <div className="flex items-center justify-between">
                   <Link href="/" className="flex items-center gap-3">
-                    <Icons.logo className="size-7 md:size-10" />
+                    <Image
+                      src="/logo.svg"
+                      alt="Logo"
+                      width={56}
+                      height={56}
+                      className="size-8 md:size-12 object-contain"
+                    />
                     <p className="text-lg font-semibold text-primary">
                       SkyAgent
                     </p>

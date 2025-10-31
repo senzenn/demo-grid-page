@@ -1,0 +1,15 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_pyusd)">
+<path d="M110 220C170.751 220 220 170.751 220 110C220 49.2487 170.751 0 110 0C49.2487 0 0 49.2487 0 110C0 170.751 49.2487 220 110 220Z" fill="#0052FF"/>
+<path d="M110 35C71.3091 35 40 66.3091 40 105C40 143.691 71.3091 175 110 175C148.691 175 180 143.691 180 105C180 66.3091 148.691 35 110 35Z" fill="white"/>
+<path d="M85 75H135C137.761 75 140 77.2386 140 80V82H138V80H86V95H138V93H140V95C140 97.7614 137.761 100 135 100H85C82.2386 100 80 97.7614 80 95V80C80 77.2386 82.2386 75 85 75Z" fill="#0052FF"/>
+<path d="M90 85H130V90H90V85Z" fill="#0052FF"/>
+<path d="M90 90H130V95H90V90Z" fill="#0052FF"/>
+</g>
+<defs>
+<clipPath id="clip0_pyusd">
+<rect width="220" height="220" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+

@@ -1,0 +1,18 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_sol)">
+<circle cx="110" cy="110" r="110" fill="url(#gradient_sol)"/>
+<path d="M74.5 164.5L85 154L132 107L142.5 96.5H164.5L175 107L151.5 130.5L141 141H119L108.5 151.5L85 175L74.5 164.5Z" fill="white"/>
+<path d="M145.5 55.5L155 66L108 113L97.5 123.5H75.5L65 113L88.5 89.5L99 79H121L131.5 68.5L155 45L145.5 55.5Z" fill="white"/>
+<path d="M142.5 119.5L132 130L108 154L97.5 164.5H75.5L65 154L88.5 130.5L99 120H121L131.5 109.5L155 86L142.5 119.5Z" fill="white" fill-opacity="0.8"/>
+</g>
+<defs>
+<linearGradient id="gradient_sol" x1="110" y1="0" x2="110" y2="220" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9945FF"/>
+<stop offset="1" stop-color="#14F195"/>
+</linearGradient>
+<clipPath id="clip0_sol">
+<rect width="220" height="220" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
