@@ -30,7 +30,7 @@ export const BLUR_FADE_DELAY = 0.15;
 
 export const siteConfig = {
   name: "Squad Grid",
-  description: "The future of payments. Built on Solana with Grid SDK - create payment links, embeddable widgets, and real-time analytics.",
+  description: "Accept crypto payments on Solana. Create payment links, embeddable widgets, and real-time analytics with Grid SDK.",
   cta: "Get Started",
   url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
   keywords: [
@@ -53,7 +53,6 @@ export const siteConfig = {
       { id: 1, name: "Home", href: "#hero" },
       { id: 2, name: "How it Works", href: "#bento" },
       { id: 3, name: "Features", href: "#features" },
-      { id: 4, name: "Pricing", href: "#pricing" },
     ],
   },
   hero: {
@@ -71,13 +70,13 @@ export const siteConfig = {
         <path d="M2.37845 10.5993L2.57045 10.4893L6.88445 12.9533C7.22435 13.1474 7.60901 13.2496 8.00045 13.2496C8.39189 13.2496 8.77656 13.1474 9.11645 12.9533L13.4305 10.4883L13.6225 10.5983C13.7374 10.6638 13.833 10.7586 13.8994 10.8731C13.9659 10.9875 14.0009 11.1175 14.0009 11.2498C14.0009 11.3821 13.9659 11.5121 13.8994 11.6265C13.833 11.7409 13.7374 11.8357 13.6225 11.9013L8.37245 14.9013C8.25915 14.966 8.13093 15 8.00045 15C7.86997 15 7.74175 14.966 7.62845 14.9013L2.37845 11.9013C2.2635 11.8357 2.16795 11.7409 2.10148 11.6265C2.03501 11.5121 2 11.3821 2 11.2498C2 11.1175 2.03501 10.9875 2.10148 10.8731C2.16795 10.7586 2.2635 10.6638 2.37845 10.5983V10.5993Z" />
       </svg>
     ),
-    badge: "Powered by Grid SDK",
-    title: "The Future of Payments on Solana",
+    badge: "Web3 Payments on Solana",
+    title: "Accept Crypto Payments with Solana",
     description:
-      "Create payment links, embeddable widgets, and real-time analytics. Accept USDC, USDT, and PYUSD payments with Grid's secure infrastructure.",
+      "Create payment links, embeddable widgets, and real-time analytics. Accept USDC, USDT, and PYUSD with Grid SDK's secure infrastructure.",
     cta: {
       primary: {
-        text: "Start Building",
+        text: "Start Accepting Payments",
         href: "/auth",
       },
       secondary: {
@@ -391,9 +390,9 @@ export const siteConfig = {
     },
   ],
   growthSection: {
-    title: "Built for Secure Growth",
+    title: "Secure Web3 Payments on Solana",
     description:
-      "Where advanced security meets seamless scalability—designed to protect your data and empower your growth.",
+      "Blockchain-grade security with instant confirmations—accept crypto payments with confidence on the fastest blockchain.",
     items: [
       {
         id: 1,
